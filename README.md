@@ -50,13 +50,21 @@ chmod 400 new
 
 cd /var/www/html/
 git init
+
 git config user.name "suryakiransubramaniam"
+
 git config user.email "suryakiran.ssat@gmail.com"
+
 git remote add origin git@github.com:SuryakiranSubramaniam/dev.suryakiran.online.git
+
 git status
+
 git add .
+
 git status 
+
 git commit -m "31-03-2022"
+
 git push -u origin master
  
  

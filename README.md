@@ -4,11 +4,15 @@ In this project we setup a LAMP server and host a wordpress site in it.The image
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/Diagram1.png)
 
-amazon-linux-extras install php7.4
+## Create an EC2 instance called dev.suryakiran.online
 
-yum install php-xmlwriter
 
-yum install git
+
+amazon-linux-extras install php7.4 -y
+
+yum install php-xmlwriter -y
+
+yum install git -y
 
 ~~yum install libxml2
 yum install php-xml
@@ -23,6 +27,14 @@ yum install mariadb-server -y ; systemctl restart mariadb.service ; systemctl en
 mysql_secure_installation
 
 mysql -u root -p123
+
+create database wordpress;
+
+create user 'wordpress'@'%' identified by 'wordpress';
+
+grant all privileges on wordpress.* to 'wordpress'@'%';
+
+flush privileges;
 
 wget https://wordpress.org/latest.tar.gz
 

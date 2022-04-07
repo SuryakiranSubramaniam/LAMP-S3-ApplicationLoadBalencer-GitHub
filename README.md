@@ -24,7 +24,11 @@ yum install httpd -y ; systemctl restart httpd.service ; systemctl enable httpd.
 
 yum install mariadb-server -y ; systemctl restart mariadb.service ; systemctl enable mariadb.service
 
+## Mysql secure installation
+
 mysql_secure_installation
+
+## Wordpress user creation
 
 mysql -u root -p123
 
@@ -35,6 +39,8 @@ create user 'wordpress'@'%' identified by 'wordpress';
 grant all privileges on wordpress.* to 'wordpress'@'%';
 
 flush privileges;
+
+## Deploying wordpress site
 
 wget https://wordpress.org/latest.tar.gz
 
@@ -52,6 +58,8 @@ vim /var/www/html/wp-config.php
 systemctl restart httpd
 systemctl restart php-fpm
 
+## Generating Key for GitHub
+
 ssh-keygen
 ls
 cat new.pub 
@@ -59,6 +67,8 @@ eval $('ssh-agent')
 ssh-add -k /root/new
 ssh-add -l
 chmod 400 new
+
+## Pushing to GitHub
 
 cd /var/www/html/
 git init

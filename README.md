@@ -47,6 +47,7 @@ wget https://wordpress.org/latest.tar.gz
 tar -xvf latest.tar.gz
 
 cp -r wordpress/* /var/www/html/
+
 chown -R apache:apache /var/www/html/*
 
 vim /var/www/html/info.php
@@ -56,6 +57,7 @@ cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 vim /var/www/html/wp-config.php
 
 systemctl restart httpd
+
 systemctl restart php-fpm
 
 ## Generating Key for GitHub

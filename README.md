@@ -14,11 +14,7 @@ yum install php-xmlwriter -y
 
 yum install git -y
 
-~~yum install libxml2
-yum install php-xml
-yum install php-gd
-~~
-
+yum install php-gd -y
 
 yum install httpd -y ; systemctl restart httpd.service ; systemctl enable httpd.service
 

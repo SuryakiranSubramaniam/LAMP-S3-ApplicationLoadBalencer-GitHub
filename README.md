@@ -48,13 +48,30 @@ tar -xvf latest.tar.gz
 
 cp -r wordpress/* /var/www/html/
 
-chown -R apache:apache /var/www/html/*
-
 vim /var/www/html/info.php
+
+<?php
+
+phpinfo();
+
+?>
 
 cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 
+chown -R apache:apache /var/www/html/*
+
 vim /var/www/html/wp-config.php
+
+define( 'DB_NAME', 'wordpress' );
+
+/** Database username */
+define( 'DB_USER', 'wordpress' );
+
+/** Database password */
+define( 'DB_PASSWORD', 'wordpress' );
+
+/** Database hostname */
+define( 'DB_HOST', 'localhost' );
 
 systemctl restart httpd
 

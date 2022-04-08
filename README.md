@@ -157,16 +157,33 @@ systemctl restart php-fpm
 ssh-keygen
 
 ls
+new  new.pub
 
 cat new.pub
 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4TkfT2Lhu5Vavzs8MAqigYQz4oz1VYjZbpMZx4AUrHjiFXWP9Ed47LpIMmLnUBfiGVOLeG5Lbb3ckktbkLSg8SvAIdayMbAeVJsW65S+fnUsgcv71r/qd8T3thftXGgibON2NbsBmmCOBG5PIxm+RjcF2ql9Yv8QHwEeE51pRHOdBjuQASzEjZuM5MW8BTPczvuMPzSzXPiumG+jJwkIoubcadnvqsZ3vlxsiGAeBkAyOINTDhusvoNCrHLEXV2X2kBgpQwm2ElofZ71W7WneC8lL8NnewxLjdVELEexRZbClgeG9XX6Ak93xhJ3uF6P3zEf6skYpL4mtspKq7ZEb root@ip-172-31-39-170.ap-south-1.compute.internal
+
+Copy ***new.pub*** to ***GitHub***
+
 eval $('ssh-agent')
+
+Agent pid 3646
 
 ssh-add -k /root/new
 
+Identity added: /root/new2 (/root/new2)
+
 ssh-add -l
 
+2048 SHA256:sifoAcgbZo+A7ift2X6WvmvLKX8yM7iS6SMIqt+lqVg /root/new2 (RSA)
+
 chmod 400 new
+
+## Creating SSH keys in GitHub
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/sshkey.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/sshkey2.png)
 
 ## Pushing to GitHub
 

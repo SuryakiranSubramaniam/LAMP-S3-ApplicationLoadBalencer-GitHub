@@ -149,6 +149,9 @@ systemctl restart php-fpm
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp15.png)
 
+You can use ***IAM User*** or ***IAM Role*** here
+In both casess you need to attach ***AmazonS3FullAccess*** Policies to ***IAM User*** or ***IAM Role***
+
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/16.png)
 
 

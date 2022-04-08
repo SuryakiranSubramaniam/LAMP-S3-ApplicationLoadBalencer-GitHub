@@ -171,11 +171,11 @@ Agent pid 3646
 
 ssh-add -k /root/new
 
-Identity added: /root/new2 (/root/new2)
+Identity added: /root/new (/root/new2)
 
 ssh-add -l
 
-2048 SHA256:sifoAcgbZo+A7ift2X6WvmvLKX8yM7iS6SMIqt+lqVg /root/new2 (RSA)
+2048 SHA256:sifoAcgbZo+A7ift2X6WvmvLKX8yM7iS6SMIqt+lqVg /root/new (RSA)
 
 chmod 400 new
 
@@ -184,6 +184,12 @@ chmod 400 new
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/sshkey.png)
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/sshkey2.png)
+
+## Create a GitHub repository called dev.suryakiran.online.git
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH2.png)
 
 ## Pushing to GitHub
 

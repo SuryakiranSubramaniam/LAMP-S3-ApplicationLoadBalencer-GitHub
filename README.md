@@ -155,11 +155,17 @@ systemctl restart php-fpm
 ## Generating Key for GitHub
 
 ssh-keygen
+
 ls
-cat new.pub 
+
+cat new.pub
+
 eval $('ssh-agent')
+
 ssh-add -k /root/new
+
 ssh-add -l
+
 chmod 400 new
 
 ## Pushing to GitHub

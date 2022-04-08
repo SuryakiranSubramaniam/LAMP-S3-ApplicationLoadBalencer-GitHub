@@ -101,6 +101,57 @@ systemctl restart php-fpm
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/al7.png)
 
+## Creating S3 Bucket
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/s31.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/s32.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/s33.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/s34.png)
+
+## Adding Records to Route53
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/r53.png)
+
+## Installing Wordpress
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wphttps.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp2.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp3.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp4.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp5.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp6.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp7.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp8.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp9.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp10.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp11.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp12.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp13.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp14.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/wp15.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/16.png)
+
+
 ## Generating Key for GitHub
 
 ssh-keygen

@@ -189,8 +189,6 @@ chmod 400 new
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH1.png)
 
-![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH2.png)
-
 ## Pushing to GitHub
 
 cd /var/www/html/
@@ -211,6 +209,7 @@ git status
 git commit -m "31-03-2022"
 
 git push -u origin master
- 
+
+![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH2.png)
  
  

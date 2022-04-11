@@ -215,4 +215,9 @@ git push -u origin master
 
 ![alt text](https://github.com/SuryakiranSubramaniam/LAMP-S3-ApplicationLoadBalencer-GitHub/blob/main/image/GH2.png)
  
- 
+## Note
+
+After rebooting the system you need to add the ssh credentials once more in the system
+
+***git remote add*** name cannot can be the same all the time
+
